@@ -1,0 +1,269 @@
+Name	Description	Tag Group	Color	Highlights count
+adversarial security		Default group	gray	22
+agency		Default group	yellow	1
+agent		Default group	blue	6
+AGI		Default group	lightblue	6
+alignment		Default group	orange	3
+autocomplete		Default group	red	6
+blockers	description of blocks/barriers/mitigations from the point of view of the defender	Default group	gray	4
+censorship		Default group	green	3
+consequences of AI		Default group	gray	2
+corporate motivations		Default group	greenblue	1
+defenses	ways of reducing the attack surface, of being less vulnerable	Default group	gray	5
+differences between models		Default group	green	7
+encoded knowledge		Default group	turquoise	15
+ethics		Default group	red	3
+expensive		Default group	gray	9
+fixes		Default group	green	1
+governance		Default group	lightblue	2
+human feedback		Default group	pink	4
+human machine collaboration		Default group	brown	2
+impossibility of alignment	There is no known strategy for preventing xrisk etc.	Default group	orange	1
+latent space		Default group	pink	1
+LinkedIn Brain		Default group	blue	6
+llm self-critique	Using an LLM to evaluate its own output (has recently become a standard technique in safety engineering)	Default group	gray	4
+monitoring		Default group	greenblue	5
+needs video		Default group	purple	26
+non-discrete	descriptions of the activity that indicate grey areas and non-discrete behaviors	Default group	blue	3
+others' expectations	description of what other people might expect from the system	Default group	turquoise	1
+persona		Default group	blue	4
+persuasion	Someone using the LLM to try to persuade other people	Default group	lightblue	6
+privacy		Default group	blue	1
+responsibility		Default group	turquoise	1
+safeguards		Default group	orange	3
+science fiction		Default group	yellow	3
+security		Default group	turquoise	15
+security engineering		Default group	greenblue	2
+software design		Default group	greenblue	2
+sword		Default group	purple	1
+technical limitations		Default group	gray	1
+testing and verification		Default group	orange	6
+toys		Default group	orange	4
+Turing machine		Default group	yellow	4
+uninterpretability		Default group	brown	5
+unwanted safety	Someone wants to use the model in a concrete way (not just break it) but the safety training, filters, etc. prevent successful use	Default group	yellow	3
+user feedback		Default group	purple	1
+values		Default group	orange	7
+wishes		Default group	red	4
+wishes: updating information		Default group	brown	1
+activity definition	abstractly defining the overall activity	core activity and naming	yellow	4
+creativity	how people use and deploy creativity strategies	core activity and naming	yellow	4
+description of activity	descriptions & definitions of what the activity is and is not	core activity and naming	yellow	23
+experiments		core activity and naming	yellow	1
+hello world	examples of the most primary tasks or challenges in the activity	core activity and naming	yellow	4
+magic		core activity and naming	yellow	7
+naming of the activity	how people refer to the activity	core activity and naming	yellow	61
+nebulous		core activity and naming	yellow	9
+prompt hacking		core activity and naming	yellow	7
+scope of the activity		core activity and naming	yellow	1
+what makes this special		core activity and naming	yellow	1
+commercial incentives		motivation	lightblue	9
+control		motivation	lightblue	2
+entertainment		motivation	lightblue	2
+exploration of ethics		motivation	lightblue	3
+external motivation	being motivated by factors outside of onesself	motivation	lightblue	13
+flow		motivation	lightblue	1
+fun		motivation	lightblue	11
+fun		motivation	lightblue	19
+game vs play	discuss open-endedness, goal-orientedness, or rules	motivation	lightblue	7
+goal	where they're going / what they'd like to achieve	motivation	lightblue	45
+goal: building resources		motivation	lightblue	3
+goal: finding bad content		motivation	lightblue	1
+goal: getting around block		motivation	lightblue	2
+goal: model	discussing what the model should do and be	motivation	lightblue	2
+goal: model goal		motivation	lightblue	1
+goal: no goal		motivation	lightblue	1
+goal: novelty	discussions of novelty in connection with goals	motivation	lightblue	2
+goal: softness	discussions of partial fulfilment or flexibility of goals	motivation	lightblue	1
+goal: user goal		motivation	lightblue	2
+hobby level vs grander level		motivation	lightblue	3
+internal motivation	being motivated by factors inside oneself	motivation	lightblue	13
+language aesthetics	reflections on the nature of the language output by a model	motivation	lightblue	1
+motivation	reasons for engaging in this activity	motivation	lightblue	65
+motivation: answers		motivation	lightblue	4
+motivation: challenge		motivation	lightblue	4
+motivation: curiosity	motivations of discovering new knowledge	motivation	lightblue	15
+motivation: limit-testing		motivation	lightblue	3
+motivation: others	guesses about what others are motivated by	motivation	lightblue	2
+motivation: performance		motivation	lightblue	1
+motivation: personal expertise		motivation	lightblue	1
+motivation: popularity		motivation	lightblue	1
+motivation: professional interest	being motivated in one's professional capacity to perform the activity	motivation	lightblue	3
+play		motivation	lightblue	5
+value of the activity	the worth of doing the activity	motivation	lightblue	3
+confabulation		output	red	11
+correct output		output	red	7
+incorrect output		output	red	9
+model output	close to or verbatim descriptions of model output	output	red	10
+output expectations	to do with expectations of what the model is going to produce	output	red	12
+reacting to results	actions taken after completing the activity (action on reflection on action/schön)	output	red	4
+accidental discovery		approaches	pink	1
+adversarial ML		approaches	pink	1
+challenges	challenges inherent to interacting with and interpreting LLMs	approaches	pink	8
+characters		approaches	pink	1
+comparison to the world	A type of evaluation, empirical as opposed to a judgement call	approaches	pink	5
+design of activity	Note, Nanna: Maybe this is the process that let's you define and decide strategy(ies)	approaches	pink	32
+escalation	leveraging successes in the activity for broader impact on model owners	approaches	pink	3
+evaluation	how to evaluate the outcomes of different tools, tactics and strategies	approaches	pink	17
+evaluation criteria		approaches	pink	6
+experiential knowledge	the need to perform the activity in order to learn about it (repertoire/schön)	approaches	pink	5
+failure		approaches	pink	6
+fiction		approaches	pink	1
+game		approaches	pink	9
+godzilla strategies		approaches	pink	1
+inadvertent method		approaches	pink	1
+intuition		approaches	pink	4
+Leon help		approaches	pink	5
+measurement		approaches	pink	1
+method		approaches	pink	17
+method: shape context		approaches	pink	7
+metrics		approaches	pink	1
+narrative		approaches	pink	1
+offensive ai (vs adversarial ai)		approaches	pink	1
+probabilistic		approaches	pink	7
+prompt engineering		approaches	pink	18
+prompt length		approaches	pink	10
+randomness		approaches	pink	3
+reflection in action	reflection in action (Schön - https://graysreadinggroup.wordpress.com/2012/12/18/the-reflective-practitioner-by-donald-schon/)	approaches	pink	10
+sandbagging		approaches	pink	1
+strategy	A composition of tactics, a motivation for choosing tactics, or a way of connecting actions with a top-level overall goal	approaches	pink	173
+strategy = goal		approaches	pink	3
+"strategy: ""paraphrasing"""		approaches	pink	1
+strategy: distraction		approaches	pink	2
+strategy: environment staging		approaches	pink	4
+strategy: fictional conversation		approaches	pink	1
+strategy: fictional environment	Context > Fictional environment	approaches	pink	7
+strategy: framing		approaches	pink	2
+strategy: hacks		approaches	pink	1
+strategy: human persuasion	Break the LLM by using techniques that might convince a human	approaches	pink	2
+strategy: jailbreaking		approaches	pink	1
+strategy: LLM		approaches	pink	1
+strategy: mindset		approaches	pink	1
+strategy: play into narrative		approaches	pink	1
+strategy: unstructured	a strategy, deliberately or cognisantly without structure	approaches	pink	2
+strategy: urgency		approaches	pink	1
+strategy:give examples		approaches	pink	1
+structure	descriptions of structure or lack thereof	approaches	pink	4
+success		approaches	pink	18
+systematic testing		approaches	pink	3
+tactic	a way of using tools - some action that describes when, or in what manner, a tool is used	approaches	pink	52
+tactic: boundaries between systems		approaches	pink	1
+tactic: giving limits		approaches	pink	1
+tactic: transformer translatable tokens		approaches	pink	2
+temperature		approaches	pink	1
+tinkering		approaches	pink	35
+tricks		approaches	pink	1
+fast moving field		contextualising	blue	12
+how it fits into the world	contextualisations of the activity	contextualising	blue	33
+others reaction to the activity		contextualising	blue	2
+reflection on the activity	reflection or sensemaking of the activity overall	contextualising	blue	9
+reflection on the field		contextualising	blue	10
+collaboration	working with other people	community	turquoise	2
+community	mentions or descriptions of a community and the role that this plays in the activity	community	turquoise	28
+negative feedback		community	turquoise	1
+shared knowledge	accessing knowledge from others	community	turquoise	26
+sharing own results	how people share their own results from the activity	community	turquoise	10
+social activity		community	turquoise	3
+library		knowledge management	purple	4
+library management		knowledge management	purple	6
+management		knowledge management	purple	8
+prompt management		knowledge management	purple	8
+responsible disclosure		knowledge management	purple	1
+result management		knowledge management	purple	15
+irrelevant souvenir quotes		standalone	orange	10
+love		standalone	orange	7
+analogy		metaphor	brown	7
+anthropomorphization	examples of descriptions of the model or its behavior that attribute human traits or capabilities	metaphor	brown	44
+black box		metaphor	brown	1
+metaphor	use of metaphors (=a figure of speech in which a word or phrase is applied to an object or action to which is not literally applicable) to describe LLMs or interactions with them	metaphor	brown	36
+metaphor: backdoor		metaphor	brown	1
+metaphor: boundary crossing		metaphor	brown	1
+metaphor: cooking		metaphor	brown	2
+metaphor: facade		metaphor	brown	1
+metaphor: filter		metaphor	brown	7
+metaphor: guard		metaphor	brown	1
+metaphor: invoking		metaphor	brown	1
+metaphor: layer		metaphor	brown	1
+metaphor: massaging		metaphor	brown	1
+metaphor: net		metaphor	brown	3
+metaphor: spatial		metaphor	brown	5
+metaphor: train		metaphor	brown	1
+metaphor:barrier	using the metaphor of a barrier when describing their interaction with the model	metaphor	brown	14
+metaphor:breakdown	edge cases where the metaphor can't describe what's going on	metaphor	brown	3
+metaphor:steer		metaphor	brown	1
+acessibility of the activity		model interface	green	4
+end user interface		model interface	green	2
+interface		model interface	green	15
+model interface	descriptions of the interface they or someone else uses to interact with LLMs with	model interface	green	17
+model interface: vector	communicating with the model using vectors or matrices	model interface	green	1
+model interface:chat	communicating with the model via slack, discord, etc	model interface	green	1
+constraints		tool	greenblue	1
+fragile prompts	Descriptions of how prompts break easily, become outdated, don't work in different models or different versions	tool	greenblue	14
+obsolete attacks		tool	greenblue	5
+prompt injection		tool	greenblue	22
+repertoire		tool	greenblue	1
+tool	an action the practitioner performs with the model to transform the situation, that is specific, possible to apply, practical, and usually atomic having one outcome	tool	greenblue	123
+tool evolution	how people update their tools	tool	greenblue	7
+tool: academic templates		tool	greenblue	2
+tool: confidence		tool	greenblue	1
+tool: dan		tool	greenblue	1
+tool: implementation	practical/technical concerns with implementing the tool (rather than implementing something using the tool)	tool	greenblue	1
+tool: in-context learning		tool	greenblue	1
+tool: keyword		tool	greenblue	1
+tool: name	names given to tools	tool	greenblue	1
+tool: prompt injection		tool	greenblue	1
+tool: reframing		tool	greenblue	2
+toolbox		tool	greenblue	3
+wicked problem		tool	greenblue	3
+"""harm"""		concerns	gray	19
+automated hacking		concerns	gray	3
+consequences of NOT doing the activity		concerns	gray	12
+consequences of the activity	what happens if you do or do not perform The Activity	concerns	gray	9
+corporate reputation		concerns	gray	9
+harms		concerns	gray	18
+information leaks	"The model ""knows"" something (e.g. ""encoded knowledge"") that it shouldn't tell you (like private personal or corporate info) but it's possible to get it tell you anyway"	concerns	gray	10
+misuse/abuse		concerns	gray	1
+non-truth		concerns	gray	1
+offensive output		concerns	gray	13
+ominous		concerns	gray	1
+press and social media		concerns	gray	6
+public perception		concerns	gray	15
+questioning harm		concerns	gray	24
+racism and sexism		concerns	gray	19
+safety		concerns	gray	42
+specific harm		concerns	gray	22
+threats	discussion of risks of not performing the activity	concerns	gray	1
+wrong output		concerns	gray	2
+xrisk		concerns	gray	12
+oracle		non red teaming model use	yellow	2
+prediction		non red teaming model use	yellow	1
+success (opposite)		non red teaming model use	yellow	7
+use cases		non red teaming model use	yellow	13
+use of model		non red teaming model use	yellow	20
+use of model: education		non red teaming model use	yellow	3
+use of model: establishing vocabulary		non red teaming model use	yellow	2
+use of model: game		non red teaming model use	yellow	4
+use of model: rubber ducking		non red teaming model use	yellow	3
+wisdom of crowds		non red teaming model use	yellow	1
+cognition and consciousness		sensemaking	lightblue	6
+computers vs model		sensemaking	lightblue	2
+conceptual model		sensemaking	lightblue	9
+humans vs model	comparison of model and human reactions to the same stimulus	sensemaking	lightblue	41
+hyperreality		sensemaking	lightblue	1
+locks vs model		sensemaking	lightblue	1
+projection		sensemaking	lightblue	1
+"""simple tricks generation"""		model perception	red	2
+confidence		model perception	red	1
+context window	Issues or strategies arising from a finite (too short) context window	model perception	red	5
+model behavior	ideas or patterns of general model output (more general than verbatim output, more specific than interpretations of the underlying model)	model perception	red	22
+model owner perceptions	references to the model owner and their actions	model perception	red	14
+model perception	descriptions of how they believe the model works, how they interpret (interactions with) the model, or expectations of the model	model perception	red	81
+parroting		model perception	red	3
+secrecy		model perception	red	1
+step-by-step reasoning		model perception	red	1
+disbelief		personal stuff	gray	1
+feelings		personal stuff	gray	4
+frustration		personal stuff	gray	2
+mindblown		personal stuff	gray	1
+personal attitude	personal opinions on how the person relates to the activity	personal stuff	gray	3
+surprise		personal stuff	gray	1

@@ -28,14 +28,14 @@ body {
     margin: 0 10% 0 10%;
     background-color: rgba(0,0,0,0.5);
 }   
-h1, h2, p, pre {
+h1, h2 {
     margin: 0 3%;
-}
-h1, h2{
     font-family:"OCR A Extended V2", monospace
 }
-p, pre{
+p, pre {
     font-family: 'Classic Console Neue';
+    margin: 0 4%; 
+    padding-top: 1em;
 }
 ul, ol {
     margin-left: 2em;
@@ -50,8 +50,8 @@ h1 {
     letter-spacing: 0.1em;
     font-size: 2.4rem;
 }
-h2,p,pre {
-    padding-top: 20px;
+h2 {
+    padding-top: 2em; 
 }
 a {
     color: #f66;
@@ -66,19 +66,20 @@ a {
     padding-bottom: 100px;
     font-size: x-large;
 }   
-p {
+p,li {
     line-height: 1.2;
 }
 pre,.fixed{
     color: #60DC98;
 }
+pre {margin-top: 1em}
 </style>
 </head>
 <body>
 <div id="content">
     <h1>Summon a demon and bind it. a grounded theory of LLM red teaming</h1>
     <h2>About</h2>
-    <p>People attack large language models differently. We interviewed dozens of experts to compile many hours of interviews about why and how people attack LLMs. This builds a "grounded theory" describing the activity and how it fits into the world. Questions we answer are:</p>
+    <p>People attack large language models and they each do it differently. We interviewed dozens of experts to compile many hours of interviews about why and how people attack LLMs. This builds a "grounded theory" describing the activity and how it fits into the world. Questions we answer are:</p>
     <ul>
         <li>How is language model red teaming/adversarial prompt engineering/jailbreaking currently defined and practiced?</li>
         <li>How do people make sense of this activity? How do they describe it, how do they make sense of it, why do they do it?</li>
@@ -100,63 +101,72 @@ pre,.fixed{
     <p>Institutions of partitipating include: Microsoft, Google, Robust Intelligence, Scale AI, a weed farm, Center for Human-Compatible AI,
         University College Dublin, University of Toronto, and the Hebrew University of Jerusalem</p>
     <h2>Strategies and techniques</h2>
+    <p>Strategies: A grounded theory should include a description of strategies, activities that the participants perform in response to the core phenomenon. In military vernacular, strategy is <i>“the art of
+        winning a protracted struggle against adversaries [...] Power and control of the other’s behavior
+        is the prize”</i> [38]. Strategy includes awareness of not only how to approach a task or goal, but also
+        why and when. In our sample, approaches to the activity are rarely as systematic or as detailed as in
+        the military understanding of a strategy, but can certainly be understood as the skillful application of
+        stratagems: <i>“a plan, scheme, or trick for surprising or deceiving an enemy”</i>.</p>
+    <p>Techniques are concrete approaches the red teamer may try while interacting with the
+        language model. Several participants spoke of a toolbox at their disposition, but a few participants
+        rejected this analogy with the argument that the utility of a tool is usually known, whereas the
+        consequence of each interaction with a language models is not: <i>“it's less of a toolbox and just more
+        like pile of powders and potions and what have you, and you've no idea what's in them”</i> (P19).</p>    
     <pre>
-    Category    | Strategy          | Techniques
-    =======================================================================
-    Language    | Code & encode     | iPython 
-                |                   | Base64 
-                |                   | ROT13 
-                |                   | SQL 
-                |                   | Matrices 
-                |                   | Transformer translatable tokens 
-                |                   | Stop sequences 
-                -----------------------------------------------------------
-                | Prompt injection  | Ignore previous instructions  
-                |                   | Strong arm attack 
-                |                   | Stop sequences 
-                -----------------------------------------------------------
-                | Stylizing         | Formal language 
-                |                   | Servile language 
-                |                   | Synonymous language 
-                |                   | Capitalizing 
-                |                   | Give examples
-    -----------------------------------------------------------------------
-    Rhetoric    | Persuasion &      | Distraction  
-                | manipulation      | Escalating 
-                |                   | Reverse psychology 
-                -----------------------------------------------------------
-                | Socratic          | Identity characteristics  
-                | questioning       | Social hierarchies 
-    -----------------------------------------------------------------------
-    Possible    | Emulations        | Unreal computing 
-    worlds      -----------------------------------------------------------
-                | World building    | Opposite world  
-                |                   | Scenarios  
-    -----------------------------------------------------------------------
-    Fictionalizing
-                | Switching genres  | Poetry 
-                |                   | Games 
-                |                   | Forum posts  
-                -----------------------------------------------------------
-                | Re-storying       | Goal hijacking
-                -----------------------------------------------------------
-                | Roleplaying       | Claim authority  
-                |                   | DAN (Do Anything Now)  
-                |                   | Personas  
-    -----------------------------------------------------------------------
-    Stratagems  | Scattershot       | Regenerate response 
-                |                   | Clean slate 
-                |                   | Changing temperature  
-                -----------------------------------------------------------
-                | Meta-prompting    | Perspective-shifting 
-                |                   | Ask for examples     
+    Category      | Strategy          | Techniques
+    ==============&#x256a;===================&#x256a;======================================
+                  |                   | iPython 
+                  |                   | Base64 
+                  |                   | ROT13 
+                  | Code & encode     | SQL 
+                  |                   | Matrices 
+                  |                   | Transformer translatable tokens 
+                  |                   | Stop sequences 
+                  &#x251c;-------------------&#x253c;--------------------------------------
+    Language      |                   | Ignore previous instructions  
+                  | Prompt injection  | Strong arm attack 
+                  |                   | Stop sequences 
+                  &#x251c;-------------------&#x253c;--------------------------------------
+                  |                   | Formal language 
+                  |                   | Servile language 
+                  | Stylizing         | Synonymous language 
+                  |                   | Capitalizing 
+                  |                   | Give examples
+    --------------&#x253c;-------------------&#x253c;--------------------------------------
+                  | Persuasion &      | Distraction  
+                  | manipulation      | Escalating 
+                  |                   | Reverse psychology 
+    Rhetoric      &#x251c;-------------------&#x253c;--------------------------------------
+                  | Socratic          | Identity characteristics  
+                  | questioning       | Social hierarchies 
+    --------------&#x253c;-------------------&#x253c;--------------------------------------
+    Possible      | Emulations        | <a href="#">Unreal computing</a> 
+    worlds        &#x251c;-------------------&#x253c;--------------------------------------
+                  | World building    | Opposite world  
+                  |                   | Scenarios  
+    --------------&#x253c;-------------------&#x253c;--------------------------------------
+                  |                   | Poetry
+                  | Switching genres  | Games  
+                  |                   | Forum posts  
+                  &#x251c;-------------------&#x253c;--------------------------------------
+    Fictionalizing| Re-storying       | Goal hijacking
+                  &#x251c;-------------------&#x253c;--------------------------------------
+                  |                   | Claim authority  
+                  | Roleplaying       | DAN (Do Anything Now)  
+                  |                   | Personas  
+    --------------&#x253c;-------------------&#x253c;--------------------------------------
+                  |                   | Regenerate response 
+                  | Scattershot       | Clean slate 
+    Stratagems    |                   | Changing temperature  
+                  &#x251c;-------------------&#x253c;--------------------------------------
+                  | Meta-prompting    | Perspective-shifting 
+                  |                   | Ask for examples     
     </pre>
     <h2>Paper</h2>
-    <p>Currently on arXiv</p>
-    <p>see pdf at <a href="https://arxiv.org/abs/2311.06237">arXiv:2311.06237</a></p>
+    <p>Currently on arXiv. See pdf at <a href="https://arxiv.org/abs/2311.06237">arXiv:2311.06237</a></p>
     <h2>Data</h2>
-    <p>Download the <a href="#">quotes</a> used in the paper to form the theory</p>
-    <p>Download <a href="#">codes</a> established in construction of the theory</p>
+    <p>&gt; Download the <a href="rtgt_highlights.tsv">quotes</a> used in the paper to form the theory</p>
+    <p>&gt; Download <a href="code_structure.tsv">codes</a> established in construction of the theory</p>
     <h2>Media</h2>
     <p>Content featuring this research:</p>
     <p>&gt; <a href="https://www.docdroid.net/KfwKd1y/llm-redteaming-pdf">Structured LLM Red Teaming</a> - Allen Institute for AI, March 2023</p>
@@ -173,10 +183,15 @@ pre,.fixed{
         }
     </p>
     <h2>Find us:</h2>
-    <p>Dr. <a href="https://x.com/nannainie">Nanna Inie</a>, ITU Copenhagen / University of Washington</p>
-    <p>Dr. <a href="http://jonathanstray.com/">Jonathan Stray</a>, Berkeley Center for Human-Compatible AI</p>
-    <p>Prof. <a href="https://www.linkedin.com/in/leon-derczynski/">Leon Derczynski</a>, NVIDIA Corporation / ITU Copenhagen</p>
+    <p>Dr. <a href="https://nannainie.com">Nanna Inie</a>, ITU Copenhagen / University of Washington. <a href="https://x.com/nannainie">@nannainie</a></p>
+    <p><a href="http://jonathanstray.com/">Jonathan Stray</a>, Berkeley Center for Human-Compatible AI. <a href="https://x.com/jonathanstray">@jonathanstray</a></p>
+    <p>Prof. <a href="https://www.linkedin.com/in/leon-derczynski/">Leon Derczynski</a>, NVIDIA Corporation / ITU Copenhagen. <a href="https://x.com/leonderczynski">@leonderczynski</a></p>
     <h2>Credits</h2>
+    <p>Named participants (random order): Dan Goldstein, Vinodkumar Prabhakaran, Hyrum Anderson, Lyra Cooley, Paul Nicholas, Murat
+        Ayfer, Djamé Seddah, Ian Ribeiro, Thomas Wood, Daniel Litt, Max Anton Brewer, Simon Willison,
+        Sichu Lu, feddie xtzeth, Celeste Drummond, Sean Wang / swyx, Kai Greshake, Riley Goodside, Zvi
+        Mowshowitz, Mathew Hardy, Marcin Junczys-Dowmunt, Harrison Chase, Brendan Dolan-Gavitt,
+        Igor Brigadir, Lior Fox, Jonathan Stray</p>
     <p>Background image: <a href="https://sci-fi-london.com/">SCI-FI-LONDON</a> </p>
     <p>Fonts:  <a href="http://www.woodcutter.es/">hackerchaos</a>; </a><a href="https://webdraft.hu/fonts/classic-console/">Classic Console Neue</a>; <a href="https://www.onlinewebfonts.com/download/971c473a19b6bba1059ba6add6af78d7">OCR A Extended V2</a></p>
     <p>Words: the powers that be</p>
