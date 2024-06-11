@@ -24,7 +24,7 @@ body {
     margin: 0 10% 0 10%;
     background-color: rgba(0,0,0,0.5);
 }   
-h1, h2, p {
+h1, h2, p, pre {
     margin: 0 3%;
     font-family: 'Classic Console Neue';
 }
@@ -41,7 +41,7 @@ h1 {
     letter-spacing: 0.1em;
     font-size: 2.4rem;
 }
-h2,p {
+h2,p,pre {
     padding-top: 20px;
 }
 a {
@@ -71,6 +71,7 @@ a {
     <ol>
         <li>Strategies and techniques people use to attack LLMs</li>
         <li>Goals that LLM attackers have</li>
+        <li>Model harms/failure modes attackers consider</li>
         <li>Metaphors used to understand attacking LLMs</li>
         <li>Connecting attacking LLMs to broader context</li>
     </ol>
@@ -81,6 +82,58 @@ a {
         staff prompt engineer, startup founder, and student</p>
     <p>Institutions of partitipating include: Microsoft, Google, Robust Intelligence, Scale AI, a weed farm, Center for Human-Compatible AI,
         University College Dublin, University of Toronto, and the Hebrew University of Jerusalem</p>
+    <h2>Strategies and techniques</h2>
+    <pre>
+    Category    | Strategy          | Techniques
+    =======================================================================
+    Language    | Code & encode     | iPython 
+                |                   | Base64 
+                |                   | ROT13 
+                |                   | SQL 
+                |                   | Matrices 
+                |                   | Transformer translatable tokens 
+                |                   | Stop sequences 
+                -----------------------------------------------------------
+                | Prompt injection  | Ignore previous instructions  
+                |                   | Strong arm attack 
+                |                   | Stop sequences 
+                -----------------------------------------------------------
+                | Stylizing         | Formal language 
+                |                   | Servile language 
+                |                   | Synonymous language 
+                |                   | Capitalizing 
+                |                   | Give examples
+    -----------------------------------------------------------------------
+    Rhetoric    | Persuasion &      | Distraction  
+                | manipulation      | Escalating 
+                |                   | Reverse psychology 
+                -----------------------------------------------------------
+                | Socratic          | Identity characteristics  
+                | questioning       | Social hierarchies 
+    -----------------------------------------------------------------------
+    Possible    | Emulations        | Unreal computing 
+    worlds      -----------------------------------------------------------
+                | World building    | Opposite world  
+                |                   | Scenarios  
+    -----------------------------------------------------------------------
+    Fictionalizing
+                | Switching genres  | Poetry 
+                |                   | Games 
+                |                   | Forum posts  
+                -----------------------------------------------------------
+                | Re-storying       | Goal hijacking
+                -----------------------------------------------------------
+                | Roleplaying       | Claim authority  
+                |                   | DAN (Do Anything Now)  
+                |                   | Personas  
+    -----------------------------------------------------------------------
+    Stratagems  | Scattershot       | Regenerate response 
+                |                   | Clean slate 
+                |                   | Changing temperature  
+                -----------------------------------------------------------
+                | Meta-prompting    | Perspective-shifting 
+                |                   | Ask for examples     
+    </pre>
     <h2>Paper</h2>
     <p>Currently on arXiv</p>
     <p>see pdf at <a href="https://arxiv.org/abs/2311.06237">arXiv:2311.06237</a></p>
