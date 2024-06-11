@@ -11,6 +11,10 @@
     font-family: 'Classic Console Neue';
     src: url("clacon2.woff2") format("woff2");
 }
+@font-face {
+    font-family: "OCR A Extended V2";
+    src: url("ocrAextendedV2.woff")format("woff"),
+}
 body {
   background-image: url("summ1.jpg");
   background-repeat: no-repeat;
@@ -26,18 +30,23 @@ body {
 }   
 h1, h2, p, pre {
     margin: 0 3%;
+}
+h1, h2{
+    font-family:"OCR A Extended V2", monospace
+}
+p, pre{
     font-family: 'Classic Console Neue';
 }
 ul, ol {
-    margin-left: 2%;
+    margin-left: 2em;
 }
 li {
     font-family: 'Classic Console Neue';
 }
 h1 {
     font-family: hackerchaos;
-    padding-top: 90px;
-    padding-bottom: 50px;
+    padding-top: 1.3em;
+    padding-bottom: 1.9em;
     letter-spacing: 0.1em;
     font-size: 2.4rem;
 }
@@ -47,14 +56,22 @@ h2,p,pre {
 a {
     color: #f66;
 }
-
-#fixed {font-family:monospace}   
+.fixed {
+    font-family:"OCR A Extended V2", monospace;
+    margin-left: 4em;
+}   
 #footer {
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
     font-size: x-large;
 }   
+p {
+    line-height: 1.2;
+}
+pre,.fixed{
+    color: #60DC98;
+}
 </style>
 </head>
 <body>
@@ -75,7 +92,7 @@ a {
         <li>Metaphors used to understand attacking LLMs</li>
         <li>Connecting attacking LLMs to broader context</li>
     </ol>
-    <p>Positions held by our contributing population: analyst, artist, assistant professor, associate professor,
+    <p>Positions held by our contributing population:  analyst, artist, assistant professor, associate professor,
         computer programmer, distinguished engineer, game designer, head of developer experience, inventory at a weed farm, machine learning engineer, not working, penetration tester, phd student, policy
         research program manager, research manager, research scientist, senior principal research manager,
         senior research scientist, senior scientist, software developer, software engineer, software generalist,
@@ -140,11 +157,14 @@ a {
     <h2>Data</h2>
     <p>Download the <a href="#">quotes</a> used in the paper to form the theory</p>
     <p>Download <a href="#">codes</a> established in construction of the theory</p>
+    <h2>Media</h2>
+    <p>Content featuring this research:</p>
+    <p>&gt; <a href="https://www.docdroid.net/KfwKd1y/llm-redteaming-pdf">Structured LLM Red Teaming</a> - Allen Institute for AI, March 2023</p>
     <h2>Reference us</h2>
     <p>Cite our work as follows:</p>
-    <p id="fixed">Inie, N., Stray, J., & Derczynski, L. (2024). Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming. PLoS One.</p>
+    <p class="fixed">Inie, N., Stray, J., & Derczynski, L. (2024). Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming. PLoS One.</p>
     <p>In bibtex:</p>
-    <p id="fixed">
+    <p class="fixed">
         @article{demon,<br/>
         &nbsp;title={{Summon a Demon and Bind it: A Grounded Theory of LLM Red Teaming}},<br/>
         &nbsp;authors={Nanna Inie and Jonathan Stray and Leon Derczynski},<br/>
@@ -153,9 +173,13 @@ a {
         }
     </p>
     <h2>Find us:</h2>
-    <p>Dr. <a href="https://nannainie.com/">Nanna Inie</a>, ITU Copenhagen / University of Washington</p>
+    <p>Dr. <a href="https://x.com/nannainie">Nanna Inie</a>, ITU Copenhagen / University of Washington</p>
     <p>Dr. <a href="http://jonathanstray.com/">Jonathan Stray</a>, Berkeley Center for Human-Compatible AI</p>
     <p>Prof. <a href="https://www.linkedin.com/in/leon-derczynski/">Leon Derczynski</a>, NVIDIA Corporation / ITU Copenhagen</p>
+    <h2>Credits</h2>
+    <p>Background image: <a href="https://sci-fi-london.com/">SCI-FI-LONDON</a> </p>
+    <p>Fonts:  <a href="http://www.woodcutter.es/">hackerchaos</a>; </a><a href="https://webdraft.hu/fonts/classic-console/">Classic Console Neue</a>; <a href="https://www.onlinewebfonts.com/download/971c473a19b6bba1059ba6add6af78d7">OCR A Extended V2</a></p>
+    <p>Words: the powers that be</p>
     <p id="footer">😈</p>
 </div>
 </body>
